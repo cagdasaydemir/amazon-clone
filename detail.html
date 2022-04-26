@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://kit.fontawesome.com/41c9d08b99.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap" rel="stylesheet">
+
+    <title>Amazon Clone</title>
+</head>
+
+<body>
+
+    <!-- NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR  -->
+
+    <nav class="navbar-main navbar-expand-lg navbar-dark d-flex align-items-center">
+        <div class="container-fluid d-inline-flex " >
+            <a class="navbar-brand d-flex align-items-center" href="#"> 
+                <img src="/images/amazon-1.jpg" alt="" width="" height="29" class="amazon-logo mt-2 me-1"> .com.tr
+            </a>
+            <div class="text-white d-flex me-2 align-items-center">
+                <i class="fa-solid fa-location-dot mx-2 mt-3"></i>
+               <div>
+                <div class="">
+                    Merhaba
+                </div>
+                <div class="fw-bold">Teslimat Adresini Seçin</div>
+                
+              
+            </div>
+            </div>
+              <form class=" btn-group flex-fill p-2 ">
+                <div class="btn-group ">
+                    <button type="button" class="btn btn-light dropdown-toggle border border-1 text-muted " data-bs-toggle="dropdown">Tüm Kategoriler</button>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">Bahçe</a>
+                      <a class="dropdown-item" href="#">Bebek</a>
+                      <a class="dropdown-item" href="#">Bilgisayarlar</a>
+                      <a class="dropdown-item" href="#">Elektronik</a>
+                      <a class="dropdown-item" href="#">Ev</a>
+                      <a class="dropdown-item" href="#">Ev ve Mutfak</a>
+                      <a class="dropdown-item" href="#">Evcil Hayvan Malzemeleri</a>
+                      <a class="dropdown-item" href="#">Gıda ve içecek</a>
+                      <a class="dropdown-item" href="#">Hediye Kartları</a>
+                      <a class="dropdown-item" href="#">Kitaplar</a>
+                      <a class="dropdown-item" href="#">Kişisel Bakım ve Kozmetik</a>
+                      <a class="dropdown-item" href="#">Moda</a>
+                      <a class="dropdown-item" href="#">Müzik Aletleri</a>
+                      <a class="dropdown-item" href="#">Ofis Ürünleri</a>
+                      <a class="dropdown-item" href="#">Oyuncaklar ve Oyunlar</a>
+                      <a class="dropdown-item" href="#">PC ve Video Oyunları</a>
+                      <a class="dropdown-item" href="#">Prime Video</a>
+                      <a class="dropdown-item" href="#">Sağlık ve Bakım</a>
+                      <a class="dropdown-item" href="#">Spor</a>
+                      <a class="dropdown-item" href="#">Yapı Market</a>
+                    </div>
+                  </div>
+                <input class="border-0 flex-fill" type="text" placeholder="Search">
+                <button type="button" class="btn btn-search flex-grow-0"><i class="fa-solid fa-magnifying-glass "></i></button>
+
+                </form> 
+
+
+         
+
+            <div class="text-white d-flex flex-column mx-2 justify-content-center">
+                
+                
+                    
+                <div class="">Merhaba, Giriş Yapın</div>
+                <div class="fw-bold">Hesap ve Listeler</div>
+                
+
+            </div>
+            <div class="text-white d-flex flex-column mx-2 justify-content-center ">
+                
+                    
+                <div class="">İadeler</div>
+                <div class=" fw-bold">ve Siparişler</div>
+                
+
+            </div>
+            <div class="text-white d-flex mx-2 align-items-center ">
+                
+                <i class="fa-solid fa-cart-arrow-down fa-2x mb-2 me-2"></i>
+          
+                <div class="">
+                    
+                <div class="">Alışveriş</div>
+                <div class="fw-bold">Sepeti</div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </nav>
+    <!-- NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR  -->
+
+    <nav class="navbar-second navbar-expand-lg navbar-dark text-white ">
+        <div class="container-fluid" >
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse d-inline-flex justify-content-between" id="navbarScroll">
+      <ul class="navbar-nav navbar-nav-scroll  d-flex align-content-between" style="--bs-scroll-height: 100px;">
+        <li class="nav-item">
+          <a class="nav-link-second d-flex align-items-center  " aria-current="page" href="#"><i class="fa-solid fa-bars mx-1"></i>Tümü</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link-second px-3" href="#">Satış Yap</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link-second" href="#">Çok Satanlar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link-second px-3" href="#">Müşteri Hizmetleri</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link-second " href="#">Moda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link-second px-3" href="#">Günün Fırsatları</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link-second" href="#">Prime</a>    <!----->
+          </li>
+          <li class="nav-item">
+            <a class="nav-link-second px-3" href="#">Yeni Çıkanlar</a>
+          </li>
+          <li class="nav-itel">
+            <a class="nav-link-second" href="#">Elektronik</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link-second px-3" href="#">Kitap</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link-second" href="#">Bilgisayar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link-second px-3" href="#">Hediye Fikirleri</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link-second" href="#">Kişisel Bakım ve Kozmetik</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link-second px-3" href="#">Hediye Kartları</a>
+          </li>
+       
+      </ul>
+      <img class="h-100" src="/images/TR21_Amazon_super_SWM_400x39_v2._CB665492957_.jpg" >
+
+    </div>
+        </div>
+        </nav>
+        <nav class="navbar-third navbar-expand-lg navbar-light   ">
+            <div class="container-fluid" >
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarScroll">
+          <ul class="navbar-nav navbar-nav-scroll d-flex" style="--bs-scroll-height: 100px;">
+            <li class="nav-item">
+              <a class="nav-link-third fw-bolder" aria-current="page" href="#">Kitap</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link-third px-3" href="#">Çok Satanlar</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link-third" href="#">Yabancı Dilde Kitaplar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link-third px-3" href="#">Çocuk Kitapları</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link-third" href="#">Edebiyat ve Kurgu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link-third px-3" href="#">Günün Fırsatları</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link-third" href="#">Ders Kitapları</a>   
+              </li>
+              <li class="nav-item">
+                <a class="nav-link-third px-3" href="#">İş ve Ekonomi</a>
+              </li>
+              <li class="nav-itel">
+                <a class="nav-link-third" href="#">Siyaset ve Felsefe</a>
+              </li>
+              
+          </ul>
+          
+    
+        </div>
+            </div>
+            </nav>
+    <!-- GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID GRID   -->
+    <main class="offset-1 col-10 mt-5 p-4">
+        <section class="row">
+
+            <section class="col-9">
+                <section class="row">
+
+                    <div class="col-3 p-5">
+                        <div class="col mb-4 w-100">
+
+
+
+
+                            <!-- SLIDE SLIDE SLIDE SLIDE SLIDE SLIDE SLIDE SLIDE SLIDE SLIDE SLIDE SLIDE SLIDE SLIDE SLIDE   -->
+                            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                        data-bs-slide-to="0" class="active" aria-current="true"
+                                        aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                        data-bs-slide-to="1" aria-label="Slide 2"></button>
+
+                                </div>
+                                <div class="carousel-inner shadow">
+                                    <div class="carousel-item active ">
+                                        <img src="/images/81rk6ArxUbL.jpg" class="d-block w-100" height= "300px"alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="/images/91UwYDM7XPL.jpg" class="d-block w-100" height= "300px"alt="...">
+                                    </div>
+
+                                </div>
+                                <button class="carousel-control-prev" type="button"
+                                    data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button"
+                                    data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+
+                        </div>
+
+
+
+
+
+
+
+                        <!--  ------------------SMAL IMAGES---------------------  -->
+
+                        <div class="rowjustify-content-start">
+                            <img src=" /images/81rk6ArxUbL.jpg " class="w-25 " alt="... ">
+                            <img src="/images/91UwYDM7XPL.jpg " class=" w-25" alt="... ">
+
+                        </div>
+                       
+                        <a href="/about/about_team.htm" class="underline-hide underline-on-hover">2 adet görselin tamamına bakın</a>
+
+                    </div>
+
+                    </div>
+
+                    <!--  ------------------MAIN MIDDLE---------------------  -->
+                    <div class="col-9  p-5 ">
+                        <h3 class="d-inline">The 4-Hour Work Week: Escape The 9-5,Live Anywhere and Join The New Rich Kağıt kapak 
+
+                            </h3><h3 class="text text-muted d-inline">- 6
+                                Ocak 2011</h3>
+
+                                <div class="d-flex ">
+                                <div class="d-inline ">İngilizce Baskı</div> <div class="px-2 d-inline text-muted"> | </div> <a href="#"class="d-inline underline-hide underline-on-hover">Timothy Ferris</a><span class="px-2 d-inline text-muted">(Eser Sahibi)</span>
+                            </div>
+                            <div><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></div>
+                            <div class="d-flex justify-content-between py-4 my-4 border-top ">
+
+                            </div>
+                            
+                            <p>Forget the old concept of retirement and the rest of the deferred-life plan - there is no
+                                need to wait and every reason not to, especially in unpredictable economic times.
+                                Whether your dream is escaping the rat race, experiencing high-end world travel, earning
+                                a monthly five-figure income with zero management, or just living more and working less,
+                                this book is the blueprint.
+
+                                This step-by step guide to luxury lifestyle design teaches:
+
+                                * How Tim went from $40,000 dollars per year and 80 hours per week to $40,000 per MONTH
+                                and 4 hours per week
+                                * How to outsource your life to overseas virtual assistants for $5 per hour and do
+                                whatever you want
+                                * How blue-chip escape artists travel the world without quitting their jobs
+                                * How to eliminate 50% of your work in 48 hours using the principles of a forgotten
+                                Italian economist
+                                * How to trade a long-haul career for short work bursts and frequent 'mini-retirements'.
+
+                                This new updated and expanded edition includes:
+
+                                More than 50 practical tips and case studies from readers (including families) who have
+                                doubled their income, overcome common sticking points, and reinvented themselves using
+                                the original book as a starting point
+                                * Real-world templates you can copy for eliminating email, negotiating with bosses and
+                                clients, or getting a private chef for less than £5 a meal
+                                * How lifestyle design principles can be suited to unpredictable economic times
+                                * The latest tools and tricks, as well as high-tech shortcuts, for living like a
+                                diplomat or millionaire without being either.
+                            </p>
+                            
+                            <div class="d-flex justify-content-between py-4 my-4 border-top ">
+
+                            </div>
+                    </div>
+                    <div class="d-flex justify-content-between py-4 my-4 border-top ">
+
+                    </div>
+
+                </section>
+                <section class="row ">
+
+                    <div class="col-12 bg-primary align-items-center">
+                        <h3 class="pb-4 ">
+                            SIKLIKLA BİRLİKTE ALINAN ÜRÜNLER
+                        </h3>
+
+                        <div class="d-flex align-items-center">
+                            <img src="/images/81YL6FUzfkL.jpg" class="w-25 p-5">
+                            <img src="/images/718wzK6mymL.jpg" class="w-25 p-5">
+                            <div class="d-flex flex-column justify-content-center">
+                                <h5>Toplam fiyat: 276;432</h5>
+                                <button class="btn btn-warning rounded-pill " type="button">İkisini de Sepete
+                                    Ekle</button>
+                            </div>
+                        </div>
+
+
+                        <div class="d-flex">
+                            <h5>Bu öğelerden bir adedi diğerinden önce gönderilir</h5>
+                            <h5 class="ms-4">Ayrıntıları göster</h5>
+                        </div>
+                    </div>
+
+
+
+                </section>
+            </section>
+
+            <!--  ------------------CALL TO ACTION---------------------  -->
+            <section class="col-3 p-5 ">
+
+                <div class="border border-5 rounded-1 ">
+
+
+                    <div class="border border-1 rounded-1 shadow p-3">
+                        <div class="row d-inline">
+
+                            <h5 class="d-inline ">Yeni:
+
+                            </h5>
+                            <h5 class="d-inline ">276,14</h5>
+
+
+
+                        </div>
+                        <h5 class="">Fiyatlara KDV dahildir.
+
+                        </h5>
+                        <div class="row">
+
+
+                            <h6>Miktar:</h6>
+                            <div class="btn-group d-inline ">
+
+                                <button class="btn btn-light btn-sm dropdown-toggle " type="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    1
+                                </button>
+                                <ul class="dropdown-menu">
+                                    ...
+                                </ul>
+                            </div>
+
+                            <div class="d-grid gap-2 col-6 mx-auto">
+                                <button class="btn btn-warning rounded-pill " type="button">SEPETE EKLE</button>
+                                <button class="btn btn-warning rounded-pill" type="button">ŞİMDİ AL</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="border border-5 rounded-1 mt-5">
+
+
+                    <div class="border border-1 rounded-1 shadow p-3">
+                        <div class="row d-inline">
+
+                            <h5 class="d-inline ">Yeni:
+
+                            </h5>
+                            <h5 class="d-inline ">276,14</h5>
+
+
+
+                        </div>
+
+                        <div class="row">
+
+
+                            <h6>Miktar:</h6>
+                            <div class="btn-group d-inline ">
+
+                                <button class="btn btn-light btn-sm dropdown-toggle " type="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    1
+                                </button>
+                                <ul class="dropdown-menu">
+                                    ...
+                                </ul>
+                            </div>
+
+                            <div class="d-grid gap-2 col-6 mx-auto">
+                                <button class="btn btn-warning rounded-pill " type="button">SEPETE EKLE</button>
+                                <button class="btn btn-warning rounded-pill" type="button">ŞİMDİ AL</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+            </section>
+        </section>
+
+
+        <section class="col-12 row">
+            <div class="d-flex justify-content-between py-4 my-4 border-top ">
+
+            </div>
+            <h5 class="bg-info">
+                BU ÜRÜNÜ ALAN MÜŞTERİLERİN ALDIĞI DİĞER ÜRÜNLER
+                <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit dolorum voluptatibus molestiae
+                autem dolor, quo nihil commodi officia neque aspernatur consequuntur iure sit maxime eos? Rerum facilis
+                non, neque porro distinctio dolorem
+                tempora necessitatibus excepturi dolor. Sed dolorum maxime, recusandae provident magnam velit, voluptas
+                culpa vitae unde quam voluptates, mollitia blanditiis nisi amet. Voluptas corporis officia quaerat totam
+                temporibus commodi nam distinctio
+                a nostrum, voluptatem debitis quisquam quas consequatur quam voluptates ex qui soluta asperiores quos
+                incidunt sed, harum, veniam doloribus sint! Ratione, cupiditate expedita repellat, dolore vitae aliquid,
+                aspernatur molestias non libero
+                possimus natus odio perferendis ducimus nobis quam.
+            </h5>
+        </section>
+        <section class="col-12 row">
+            <h5 class="bg-danger">
+                ÜRÜN AÇIKLAMASI
+            </h5>
+            <p class="bg-danger">
+                Kitap Açıklması
+                <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit dolorum voluptatibus molestiae
+                autem dolor, quo nihil commodi officia neque aspernatur consequuntur iure sit maxime eos? Rerum facilis
+                non, neque porro distinctio dolorem
+                tempora necessitatibus excepturi dolor. Sed dolorum maxime, recusandae provident magnam velit, voluptas
+                culpa vitae unde quam voluptates, mollitia blanditiis nisi amet. Voluptas corporis officia quaerat totam
+                temporibus commodi nam distinctio
+                a nostrum, voluptatem debitis quisquam quas consequatur quam voluptates ex qui soluta asperiores quos
+                incidunt sed, harum, veniam doloribus sint! Ratione, cupiditate expedita repellat, dolore vitae aliquid,
+                aspernatur molestias non libero
+                possimus natus odio perferendis ducimus nobis quam.
+            </p>
+            <p class="bg-danger">
+                Arka Kapaktan
+                <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit dolorum voluptatibus molestiae
+                autem dolor, quo nihil commodi officia neque aspernatur consequuntur iure sit maxime eos? Rerum facilis
+                non, neque porro distinctio dolorem
+                tempora necessitatibus excepturi dolor. Sed dolorum maxime, recusandae provident magnam velit, voluptas
+                culpa vitae unde quam voluptates, mollitia blanditiis nisi amet. Voluptas corporis officia quaerat totam
+                temporibus commodi nam distinctio
+                a nostrum, voluptatem debitis quisquam quas consequatur quam voluptates ex qui soluta asperiores quos
+                incidunt sed, harum, veniam doloribus sint! Ratione, cupiditate expedita repellat, dolore vitae aliquid,
+                aspernatur molestias non libero
+                possimus natus odio perferendis ducimus nobis quam.
+            </p>
+        </section>
+
+        <section class="col-12 row">
+
+            <section class="col-10 row">
+                <div class="d-flex justify-content-between py-4 my-4 border-top ">
+
+                </div>
+                <h5 class="bg-primary">
+                    Ürün Bilgileri
+                </h5>
+                <p class="bg-primary">
+                    Kitap Açıklması
+                    <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit dolorum voluptatibus molestiae
+                    autem dolor, quo nihil commodi officia neque aspernatur consequuntur iure sit maxime eos? Rerum
+                    facilis non, neque porro distinctio
+                    dolorem tempora necessitatibus excepturi dolor. Sed dolorum maxime, recusandae provident magnam
+                    velit, voluptas culpa vitae unde quam voluptates, mollitia blanditiis nisi amet. Voluptas corporis
+                    officia quaerat totam temporibus commodi
+                    nam distinctio a nostrum, voluptatem debitis quisquam quas consequatur quam voluptates ex qui soluta
+                    asperiores quos incidunt sed, harum, veniam doloribus sint! Ratione, cupiditate expedita repellat,
+                    dolore vitae aliquid, aspernatur
+                    molestias non libero possimus natus odio perferendis ducimus nobis quam.
+                </p>
+            </section>
+            <section class="col-2 row">
+
+                <p class="bg-info">
+                    Kitap Açıklması
+                    <br>Lorem ipsum dolor sit ais quam.
+                </p>
+            </section>
+
+        </section>
+        <section class="col-12 row">
+            <div class="d-flex justify-content-between py-4 my-4 border-top ">
+
+            </div>
+            <p class="bg-danger"> BU ÜRÜNÜ GÖRÜNTÜLEYEN MÜŞTERİLERİN GÖRÜNTÜLEDİĞİ DİĞER ÜRÜNLER
+                <br>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis accusamus commodi excepturi
+                impedit! Provident tempore esse repellendus unde sunt odit harum, aut suscipit cupiditate, sapiente,
+                iusto assumenda aliquid natus ab adipisci
+                expedita in eveniet accusantium consectetur perspiciatis! Beatae minus totam in recusandae nisi facere
+                nobis. Dolor adipisci eaque exercitationem molestiae.
+            </p>
+        </section>
+        <section class="col-12 row">
+            <img src="/images/pexels-pixabay-267705.jpg">
+        </section>
+        <div class="d-flex justify-content-between py-4 my-4 border-top ">
+
+        </div>
+        <section class="col-12 row">
+            <img src="/images/pexels-christina-morillo-1181671.jpg">
+        </section>
+        <section class="col-12 row mt-5">
+            <div class="d-flex justify-content-between py-4 my-4 border-top ">
+
+            </div>
+            <section class="col-4"><img src="/images/pexels-element-digital-1370295.jpg" class="w-100">
+                <div class="d-flex justify-content-between py-4 my-4 border-top ">
+
+                </div>
+                <div class="d-flex justify-content-between py-4 my-4 border-top ">
+
+                </div>
+
+                <img src="/images/pexels-christina-morillo-1181671.jpg" class="w-100">
+            </section>
+            <section class="col-1"></section>
+            <section class="col-6"><img src="/images/pexels-christina-morillo-1181671.jpg" class="w-100"></section>
+            <section class="col-1"><img src="/images/pexels-christina-morillo-1181671.jpg" class="w-100"></section>
+        </section>
+    </main>
+    <section class="ms-1 mt-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci numquam eius fugit.
+        Eos illo impedit veritatis et optio cumque sint praesentium culpa rerum, laudantium, vero iure, odit molestias
+        magnam quibusdam cum fuga similique cupiditate. Eveniet,
+        ab nihil sit aperiam autem, nulla reprehenderit adipisci accusantium doloremque voluptatem, sed voluptate eaque
+        non rerum facere aliquam nemo rem! Iure minima nesciunt excepturi velit temporibus, atque recusandae ipsum
+        reprehenderit iste eius
+        molestiae veritatis quos praesentium hic expedita odio vel. Unde ullam explicabo, eligendi architecto ducimus
+        deleniti minima aspernatur ipsum velit quaerat asperiores quae enim quidem eaque. At, distinctio. Rem culpa
+        voluptatem deleniti aliquid
+        enim.
+    </section>
+
+
+
+
+
+    <!-- FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER  -->
+
+    <div class=" d-flex justify-content-between py-4 my-4 border-top ">
+
+    </div>
+    <footer class="py-5 ">
+        <div class="row ">
+            <div class="col-2 ">
+                <h5>Section</h5>
+                <ul class="nav flex-column ">
+                    <li class="nav-item mb-2 "><a href="# " class="nav-link p-0 text-muted ">Home</a></li>
+                    <li class="nav-item mb-2 "><a href="# " class="nav-link p-0 text-muted ">Features</a></li>
+                    <li class="nav-item mb-2 "><a href="# " class="nav-link p-0 text-muted ">Pricing</a></li>
+                    <li class="nav-item mb-2 "><a href="# " class="nav-link p-0 text-muted ">FAQs</a></li>
+                    <li class="nav-item mb-2 "><a href="# " class="nav-link p-0 text-muted ">About</a></li>
+                </ul>
+            </div>
+
+            <div class="col-2 ">
+                <h5>Section</h5>
+                <ul class="nav flex-column ">
+                    <li class="nav-item mb-2 "><a href="# " class="nav-link p-0 text-muted ">Home</a></li>
+                    <li class="nav-item mb-2 "><a href="# " class="nav-link p-0 text-muted ">Features</a></li>
+                    <li class="nav-item mb-2 "><a href="# " class="nav-link p-0 text-muted ">Pricing</a></li>
+                    <li class="nav-item mb-2 "><a href="# " class="nav-link p-0 text-muted ">FAQs</a></li>
+                    <li class="nav-item mb-2 "><a href="# " class="nav-link p-0 text-muted ">About</a></li>
+                </ul>
+            </div>
+
+            <div class="col-2 ">
+                <h5>Section</h5>
+                <ul class="nav flex-column ">
+                    <li class="nav-item mb-2 "><a href="# " class="nav-link p-0 text-muted ">Home</a></li>
+                    <li class="nav-item mb-2 "><a href="# " class="nav-link p-0 text-muted ">Features</a></li>
+                    <li class="nav-item mb-2 "><a href="# " class="nav-link p-0 text-muted ">Pricing</a></li>
+                    <li class="nav-item mb-2 "><a href="# " class="nav-link p-0 text-muted ">FAQs</a></li>
+                    <li class="nav-item mb-2 "><a href="# " class="nav-link p-0 text-muted ">About</a></li>
+                </ul>
+            </div>
+
+            <div class="col-2 ">
+                <h5>Section</h5>
+                <ul class="nav flex-column ">
+                    <li class="nav-item mb-2 "><a href="# " class="nav-link p-0 text-muted ">Home</a></li>
+                    <li class="nav-item mb-2 "><a href="# " class="nav-link p-0 text-muted ">Features</a></li>
+                    <li class="nav-item mb-2 "><a href="# " class="nav-link p-0 text-muted ">Pricing</a></li>
+                    <li class="nav-item mb-2 "><a href="# " class="nav-link p-0 text-muted ">FAQs</a></li>
+                    <li class="nav-item mb-2 "><a href="# " class="nav-link p-0 text-muted ">About</a></li>
+                </ul>
+            </div>
+            <div class="col-2 ">
+                <h5>Section</h5>
+                <ul class="nav flex-column ">
+                    <li class="nav-item mb-2 "><a href="# " class="nav-link p-0 text-muted ">Home</a></li>
+                    <li class="nav-item mb-2 "><a href="# " class="nav-link p-0 text-muted ">Features</a></li>
+                    <li class="nav-item mb-2 "><a href="# " class="nav-link p-0 text-muted ">Pricing</a></li>
+                    <li class="nav-item mb-2 "><a href="# " class="nav-link p-0 text-muted ">FAQs</a></li>
+                    <li class="nav-item mb-2 "><a href="# " class="nav-link p-0 text-muted ">About</a></li>
+                </ul>
+            </div>
+            <div class="d-flex justify-content-between py-4 my-4 border-top ">
+
+            </div>
+
+        </div>
+    </footer>
+    <!-- FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER  -->
+
+    <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

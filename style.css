@@ -1,0 +1,205 @@
+body {
+    font-family: Helvetica;
+}
+
+
+.navbar-main {
+
+background-color: #131921 !important;
+height: 60px !important;
+font-size: 14px !important;
+}
+.navbar-second {
+
+    background-color: #232f3e !important;
+    height: 39px !important;
+    font-size: 12px !important;
+    }
+    .navbar-third
+    {
+
+        background-color: #fafafa !important;
+        height: 33px !important;
+        font-size: 12px !important;
+        
+
+        }
+.nav-link {
+    color: rgb(255, 255, 255) !important;
+    font-weight: 500;
+    font-size: 14px !important;
+    text-transform: uppercase;
+    
+}
+.nav-link-second {
+    color: rgb(255, 255, 255) !important;
+    font-weight: 550 !important;
+    font-size: 14px !important;
+    text-transform: capitalize;
+    text-decoration: none;
+    
+    
+}
+.nav-link-third {
+    color: #333333 !important;
+    font-weight: 550 !important;
+    font-size: 12px !important;
+    text-transform: capitalize;
+    text-decoration: none;
+    
+    
+}
+
+.nav-link.active {
+    color: rgb(9, 219, 20) !important;
+}
+.btn-search{
+    background-color: #febd69 !important;
+    color: #343433 !important;
+}
+
+.c-dark {
+    color: black !important;
+}
+
+.carousel-caption {
+    position: absolute !important;
+    margin-left: auto !important;
+    right: 5% !important;
+    bottom: 45% !important;
+    width: 40vh !important;
+    background-color: rgb(127, 255, 212, 0.7);
+    box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.book-images {
+    max-height: 200px;
+    max-width: 150px;
+    margin: auto;
+    margin-top: 2rem;
+    box-shadow: 3px 5px 18px #888888;
+}
+
+.c-gray {
+    color: #7c7c7c;
+}
+
+.like-book {
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+
+.book-liked {
+    color: red;
+}
+
+.book-unliked {
+    color: gray;
+}
+
+.card {
+    border: none !important;
+}
+
+.card-body {
+    align-items: center;
+}
+
+.font-nanum {
+    font-family: 'Nanum Gothic Coding', monospace;
+}
+
+.covered {
+    position: relative;
+   
+    padding: 10%;
+  
+}
+
+.covered-img {
+    background: url('/images/Black_on_white_dotted_world_map_vector.jpg');
+    opacity: .25;
+    background-size: cover;
+   
+    background-position: center;
+  
+    position: absolute;
+ 
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+ 
+}
+
+.card-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.c-facebook {
+    border-top: 5px solid #5476d8;
+}
+
+.button-facebook {
+    background-color: #5476d8 !important;
+    color: white !important;
+}
+
+.facebook {
+    color: #5476d8;
+}
+
+.c-twitter {
+    border-top: 5px solid #50dcff;
+}
+
+.button-twitter {
+    background-color: #50dcff !important;
+    color: white !important;
+}
+
+.twitter {
+    color: #50dcff !important;
+}
+
+.c-dribbble {
+    border-top: 5px solid #ea4c89 !important;
+}
+
+.button-dribbble {
+    background-color: #ea4c89 !important;
+    color: white !important;
+}
+
+.dribbble {
+    color: #ea4c89;
+}
+
+.button-general {
+    background-color: #45da20 !important;
+    color: white !important;
+    font-family: 'Nanum Gothic Coding', monospace;
+}
+.fa-cart-arrow-down{
+    height: 15px;
+
+}
+.underline-on-hover:hover {
+    text-decoration: underline;
+    color: #C7511F;
+}
+.underline-hide{
+    color: #007185;
+    text-decoration: none;
+}
+.fa-star,.fa-star-half-stroke{
+    color: #ffa41c;
+   
+}
+
+
